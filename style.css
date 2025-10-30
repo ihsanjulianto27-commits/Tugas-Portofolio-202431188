@@ -1,0 +1,164 @@
+html{
+    scroll-behavior: smooth;
+    font-size: clamp(14px, 2vw, 20px);
+    font-family: monospace;
+}
+
+body{
+    background-image: url(apajala.jpg);
+    color: white;
+}
+
+#me{
+    width: 30%;
+    max-width: 150px;
+    height: auto;
+    border: solid white;
+}
+
+#pages{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+nav{
+    font-size: 1.25rem;
+    display: flex;
+    gap: 1em;
+    position: fixed;
+    top: 5px;
+}
+
+a{
+    color: rgb(255, 0, 170);
+    font-size: 1rem;
+}
+
+footer{
+    font-size: 1.25rem;
+    justify-content: center;
+    display: flex;
+    gap: auto;
+    margin-top: 50px;
+}
+
+#hero{
+    color: rgb(255, 0, 170);
+    font-size: 1.25rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+h2{
+    color: yellow;
+}
+
+p.skill{
+    color: grey;
+    font-size: 1rem;
+}
+
+section.desc{
+    text-align: justify;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+input, select, textarea{
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+textarea{
+    vertical-align: top;
+    margin-bottom: 0px;
+}
+
+label{
+    font-size: 1rem;
+    display: inline-block;
+    color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+button{
+    font-size: 1rem;
+    background-color: grey;
+    color: white;
+    font-family: monospace;
+}
+
+#link{
+   margin-left: 10px;
+}
+
+#email, #nama, #pesan{
+    width: 80%;
+    max-width: 400px;
+    font-size: 1rem;
+}
+
+#hp{
+    width: 100%;
+    max-width: 460px;
+    font-size: 1rem;
+}
+
+option{
+    font-size: 1rem;
+}
+
+select{
+    font-size: 1rem;
+    height: auto;
+    line-height: auto;
+}
+
+::placeholder{
+    text-align: justify;
+}
+
+h1{
+    color: rgb(0, 255, 30);
+}
+
+#pkuning{
+    color: rgb(0, 255, 30);
+}
+
+@media (max-width: 600px){
+    #me{
+        width: 40%;
+        max-width: 130px;
+    }
+    
+    table, th, td{
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    nav{
+        font-size: 1rem;
+    }
+    
+    footer{
+        font-size: 1rem;
+    }
+}
