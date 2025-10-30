@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="pages">
+            <nav>
+                <a href="index.html">Home</a> | 
+                <a href="portofolio.html">Portfolio</a>
+            </nav>
+        </div>
+    </header>
+
+    <h1>Form Consultation and Business</h1>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap Anda" required><br>
+
+        <div id="emailGroup">
+            <label for="email">Email:</label> <input type="email" id="email" name="email"
+                placeholder="Masukkan email Anda" required><br>
+        </div>
+
+        <div id="hpGroup">
+            <label for="hp">Nomor HP:</label>
+            <input type="tel" id="hp" name="hp" placeholder="Masukkan Nomor HP Anda (WhatsApp Active)" required><br>
+        </div>
+
+        <label for="layanan">Topik Konsultasi:</label>
+        <select id="layanan" name="layanan">
+            <option value="web">Website Development</option>
+            <option value="database">Database Design</option>
+            <option value="uiux">UI/UX Design</option>
+            <option value="gamedev">Game Development</option>
+            <option value="lainnya">Lainnya</option>
+        </select><br>
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4" placeholder="Jelaskan detail layanan yang Anda harapkan"></textarea>
+
+        <p id="pkuning">Preferensi Kontak:</p>
+        <input type="radio" id="emailRadio" name="kontak" value="email" checked>
+        <label for="emailRadio">Email</label>
+        <input type="radio" id="waRadio" name="kontak" value="wa">
+        <label for="waRadio">WhatsApp</label>
+
+        <br><br>
+        <input type="checkbox" id="setuju" required>
+        <label for="setuju">Saya setuju dengan <a href="dummy.html" id="link">kebijakan privasi.</a></label>
+
+        <br><br>
+        <button type="submit">Kirim</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2025 Muhamad Ihsan Julianto 202431188 | Kunjungi Kampus Saya, <a href="https://itpln.ac.id/">ITPLN</a></p>
+    </footer>
+
+    <script src="unnecessary_script.js"></script>
+</body>
+
+</html>
